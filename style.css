@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'Tengwarc';
+    src: url('Police/Symboles/Tengwarc.ttf');
+}
+
+@font-face {
+    font-family: 'Aniron';
+    src : url('Police/Titres/aniron.ttf');
+}
+
+@font-face {
+    font-family: 'partybusiness';
+    src : url('Police/General/partybusiness.ttf');
+}
+
+body {
+    font-family: 'partybusiness', sans-serif;
+
+}
+
+h1 {
+    margin: 60px;
+}
+
+.ring_title {
+    color: white;
+}
+
+p, footer {
+    font-size: 25px;
+}
+
+thead {
+    font-size: 25px;
+}
+
+tbody {
+    font-size: 25px;
+    color: grey;
+}
+
+.container-fluid {
+    padding:0px;
+}
+
+h1, .navbar, h2, footer {
+   font-family:'Aniron',sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    background-color: #ff6600;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+li img {
+    padding-top:10px;
+}
+
+.carousel-caption{
+    position: absolute;
+    text-align: left;
+    top: 25%;
+}
+
+.carousel-caption h2 {
+    font-size:50px;
+    color: white;
+}
+
+.nav-pills{
+    text-align: center;
+    font-size: 30px;
+    padding:10px;
+}
+
+.nav-pills a {
+    color: grey;
+    padding-left: 40px;
+}
+
+a:hover{
+    color: #ff6600;
+}
+
+.row {
+    width:80%;
+    margin: 0 auto;
+}
+
+
+em{
+    color: #ff6600;
+}
+
+.square_text {
+    display:block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    background: rgba(255,255,255,0.8);
+    text-align: center;
+    font-size: 2.3em;
+    border-radius:10px;
+    color:black;
+}
+
+.thumbnail {
+    background-image: url("images/_bg_dark.png");
+}
+
+.thumbnail .image_title{
+    position: absolute;
+    top:250px;
+    left: 80px;
+    color:white;
+}
+
+
+.thumbnail img{
+    opacity:0.5;
+}
+
+.thumbnail img:hover{
+    opacity:1.0;
+}
+
+.thumbnail  .image:hover .image_title
+{
+    font-size:1.3em;
+    left:170px;
+    top: 450px;
+}
+
+.thumbnail .image:hover .square_text{
+    display:none;
+}
+
+.caption p {
+    color: white;
+    font-size: 35px;
+}
+
+#reward {
+    background-image: url("images/_bg_dark.png");
+    color: white;
+}
+
+.img-rounded {
+    margin-left: 60px;
+}
+
+.btn {
+    color: #ff6600;
+    font-size: 30px;
+    width: 30%;
+    margin-left: 50%;
+    margin-bottom: 20px;
+    line-height: 40px;
+    padding: 10px;
+    overflow: hidden;
+    transform: skew(-20deg);
+}
+
+.media-heading {
+    color: #ff6600;
+    font-size: 40px;
+}
+
+#ring {
+    background-image: url("images/_bg_dark.png");
+    padding-bottom: 20px;
+}
+
+.panel-default {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.panel-default > .panel-heading {
+    background-color: #ff6600;
+    color: white;
+}
+
+.panel1-body {
+    padding: 2%;
+}
+
+#army .btn {
+    margin: 0;
+    width: 80%;
+    background-color: black;
+}
+
+#army h2 {
+    color: #ff6600;
+}
+
+#contact {
+    background-image: url("images/_bg_dark.png");
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contact h1 {
+    color: white;
+}
+
+
+
+footer {
+    background-color: #ff6600;
+    margin-top: 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: black;
+}
